@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    padding: 5rem;
+}
+
+button {
+    margin-left: 3rem;
+}
+
+th {
+    border: solid;
+    text-align: center;
+    &.S {
+        background-color: yellow;
+    }
+}
+
+tr {
+    border: solid;
+}
+
+span {
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.misc {
+    display: flex;
+    flex-flow: row wrap;
+
+    & p {
+        font-size: 0.8em;
+        margin-left: 1rem;
+    }
+}
